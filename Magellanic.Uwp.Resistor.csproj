@@ -103,7 +103,6 @@
     </Compile>
     <Compile Include="Models\AbstractBand.cs" />
     <Compile Include="Models\Resistor.cs" />
-    <Compile Include="Models\ResistorColors.cs" />
     <Compile Include="Models\ToleranceBand.cs" />
     <Compile Include="Models\ValueBand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -117,7 +116,6 @@
   <ItemGroup>
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Images\resistor.png" />
-    <Content Include="Images\resistor_456x113.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
