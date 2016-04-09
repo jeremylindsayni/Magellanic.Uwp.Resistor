@@ -1,0 +1,159 @@
+﻿<Page
+    x:Class="Magellanic.Uwp.Resistor.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Magellanic.Uwp.Resistor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <VisualStateManager.VisualStateGroups>
+
+            <VisualStateGroup>
+                <VisualState x:Name="Small">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="BlackButton.Width"  Value="60" />
+                        <Setter Target="BlackButton.Height"  Value="60" />
+                        <Setter Target="BrownButton.Width"  Value="60" />
+                        <Setter Target="BrownButton.Height"  Value="60" />
+                        <Setter Target="RedButton.Width"  Value="60" />
+                        <Setter Target="RedButton.Height"  Value="60" />
+                        <Setter Target="OrangeButton.Width"  Value="60" />
+                        <Setter Target="OrangeButton.Height"  Value="60" />
+                        <Setter Target="YellowButton.Width"  Value="60" />
+                        <Setter Target="YellowButton.Height"  Value="60" />
+                        <Setter Target="GreenButton.Width"  Value="60" />
+                        <Setter Target="GreenButton.Height"  Value="60" />
+                        <Setter Target="BlueButton.Width"  Value="60" />
+                        <Setter Target="BlueButton.Height"  Value="60" />
+                        <Setter Target="VioletButton.Width"  Value="60" />
+                        <Setter Target="VioletButton.Height"  Value="60" />
+                        <Setter Target="GrayButton.Width"  Value="60" />
+                        <Setter Target="GrayButton.Height"  Value="60" />
+                        <Setter Target="WhiteButton.Width"  Value="60" />
+                        <Setter Target="WhiteButton.Height"  Value="60" />
+                        <Setter Target="GoldButton.Width"  Value="60" />
+                        <Setter Target="GoldButton.Height"  Value="60" />
+                        <Setter Target="SilverButton.Width"  Value="60" />
+                        <Setter Target="SilverButton.Height"  Value="60" />
+                        <Setter Target="Reset.Width"  Value="270" />
+                        <Setter Target="Reset.Height"  Value="60" />
+                        <Setter Target="ResistorCanvas.Height" Value="100" />
+                        <Setter Target="ResistorValueText.FontSize" Value="30" />
+                        <Setter Target="ResistorValueText.Height" Value="35" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Medium">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="360" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="BlackButton.Width"  Value="80" />
+                        <Setter Target="BlackButton.Height"  Value="80" />
+                        <Setter Target="BrownButton.Width"  Value="80" />
+                        <Setter Target="BrownButton.Height"  Value="80" />
+                        <Setter Target="RedButton.Width"  Value="80" />
+                        <Setter Target="RedButton.Height"  Value="80" />
+                        <Setter Target="OrangeButton.Width"  Value="80" />
+                        <Setter Target="OrangeButton.Height"  Value="80" />
+                        <Setter Target="YellowButton.Width"  Value="80" />
+                        <Setter Target="YellowButton.Height"  Value="80" />
+                        <Setter Target="GreenButton.Width"  Value="80" />
+                        <Setter Target="GreenButton.Height"  Value="80" />
+                        <Setter Target="BlueButton.Width"  Value="80" />
+                        <Setter Target="BlueButton.Height"  Value="80" />
+                        <Setter Target="VioletButton.Width"  Value="80" />
+                        <Setter Target="VioletButton.Height"  Value="80" />
+                        <Setter Target="GrayButton.Width"  Value="80" />
+                        <Setter Target="GrayButton.Height"  Value="80" />
+                        <Setter Target="WhiteButton.Width"  Value="80" />
+                        <Setter Target="WhiteButton.Height"  Value="80" />
+                        <Setter Target="GoldButton.Width"  Value="80" />
+                        <Setter Target="GoldButton.Height"  Value="80" />
+                        <Setter Target="SilverButton.Width"  Value="80" />
+                        <Setter Target="SilverButton.Height"  Value="80" />
+                        <Setter Target="Reset.Width"  Value="350" />
+                        <Setter Target="Reset.Height"  Value="80" />
+                        <Setter Target="ResistorValueText.FontSize" Value="40" />
+                        <Setter Target="ResistorValueText.Height" Value="45" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Big">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="432" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="BlackButton.Width"  Value="93" />
+                        <Setter Target="BlackButton.Height"  Value="93" />
+                        <Setter Target="BrownButton.Width"  Value="93" />
+                        <Setter Target="BrownButton.Height"  Value="93" />
+                        <Setter Target="RedButton.Width"  Value="93" />
+                        <Setter Target="RedButton.Height"  Value="93" />
+                        <Setter Target="OrangeButton.Width"  Value="93" />
+                        <Setter Target="OrangeButton.Height"  Value="93" />
+                        <Setter Target="YellowButton.Width"  Value="93" />
+                        <Setter Target="YellowButton.Height"  Value="93" />
+                        <Setter Target="GreenButton.Width"  Value="93" />
+                        <Setter Target="GreenButton.Height"  Value="93" />
+                        <Setter Target="BlueButton.Width"  Value="93" />
+                        <Setter Target="BlueButton.Height"  Value="93" />
+                        <Setter Target="VioletButton.Width"  Value="93" />
+                        <Setter Target="VioletButton.Height"  Value="93" />
+                        <Setter Target="GrayButton.Width"  Value="93" />
+                        <Setter Target="GrayButton.Height"  Value="93" />
+                        <Setter Target="WhiteButton.Width"  Value="93" />
+                        <Setter Target="WhiteButton.Height"  Value="93" />
+                        <Setter Target="GoldButton.Width"  Value="93" />
+                        <Setter Target="GoldButton.Height"  Value="93" />
+                        <Setter Target="SilverButton.Width"  Value="93" />
+                        <Setter Target="SilverButton.Height"  Value="93" />
+                        <Setter Target="Reset.Width"  Value="406" />
+                        <Setter Target="Reset.Height"  Value="80" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        
+        <StackPanel HorizontalAlignment="Center" Width="500" VerticalAlignment="Center">
+            <StackPanel Margin="8" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Canvas Name="ResistorCanvas" HorizontalAlignment="Center" Height="113" VerticalAlignment="Top" Width="350">
+
+                    <Rectangle Fill="White" Canvas.Left="111" Canvas.Top="15" Name="FirstBand" Height="67" Width="23" />
+                    <Rectangle Fill="White" Canvas.Left="145" Canvas.Top="15" Name="SecondBand" Height="67" Width="23"/>
+                    <Rectangle Fill="White" Canvas.Left="183" Canvas.Top="15" Name="ThirdBand" Height="67" Width="23"/>
+                    <Rectangle Fill="White" Canvas.Left="218" Canvas.Top="15" Name="FourthBand" Height="67" Width="23"/>
+                    <Image Name="ResistorImage" Source="/Images/resistor.png" Canvas.Top="0" Width="350" Height="95" />
+                </Canvas>
+            </StackPanel>
+            <StackPanel Margin="8" Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Height="50" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Foreground="Silver" Name="ResistorValueText" HorizontalAlignment="Center" FontSize="45" Visibility="Visible" />
+            </StackPanel>
+            <StackPanel Margin="8" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="BlackButton" BorderBrush="DarkGray" Background="Black" Margin="5" Foreground="White" Click="BlackButtonClick">0</Button>
+                <Button Name="BrownButton" BorderBrush="DarkGray" Background="Brown" Margin="5" Foreground="White" Click="BrownButtonClick">1</Button>
+                <Button Name="RedButton" BorderBrush="DarkGray" Background="Red" Margin="5" Foreground="White"  Click="RedButtonClick">2</Button>
+                <Button Name="OrangeButton" BorderBrush="DarkGray" Background="Orange" Margin="5" Foreground="White" Click="OrangeButtonClick">3</Button>
+            </StackPanel>
+            <StackPanel Margin="8" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="YellowButton" BorderBrush="DarkGray" Background="Yellow" Margin="5" Foreground="Black" Click="YellowButtonClick">4</Button>
+                <Button Name="GreenButton" BorderBrush="DarkGray" Background="Green" Margin="5" Foreground="White" Click="GreenButtonClick">5</Button>
+                <Button Name="BlueButton" BorderBrush="DarkGray" Background="Blue" Margin="5" Foreground="White" Click="BlueButtonClick">6</Button>
+                <Button Name="VioletButton" BorderBrush="DarkGray" Background="Violet" Margin="5" Foreground="White" Click="VioletButtonClick">7</Button>
+            </StackPanel>
+            <StackPanel Margin="8" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="GrayButton" BorderBrush="DarkGray" Background="DarkGray" Margin="5" Foreground="Black" Click="GrayButtonClick">8</Button>
+                <Button Name="WhiteButton" BorderBrush="DarkGray" Background="White" Margin="5" Foreground="Black" Click="WhiteButtonClick">9</Button>
+                <Button Name="GoldButton" BorderBrush="DarkGray" Background="Gold" Margin="5" Foreground="Black" Click="GoldButtonClick">5%</Button>
+                <Button Name="SilverButton" BorderBrush="DarkGray" Background="Silver" Margin="5" Foreground="Black" Click="SilverButtonClick">10%</Button>
+            </StackPanel>
+            <StackPanel Margin="8" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="Reset" BorderBrush="DarkGray" Background="Black" Foreground="White" Margin="5" Click="ResetClick">Reset</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
