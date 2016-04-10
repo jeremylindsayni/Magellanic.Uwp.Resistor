@@ -3,3 +3,9 @@
 /Magellanic.Uwp.Resistor_TemporaryKey.pfx
 /obj
 /bin
+/*.pfx
+/Package.StoreAssociation.xml
+/_pkginfo.txt
+/AppPackages
+/_scale-100.appx
+/BundleArtifacts
