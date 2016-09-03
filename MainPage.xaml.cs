@@ -78,52 +78,52 @@ namespace Magellanic.Uwp.Resistor
 
         private void BlackButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Black), 1);
+            ColourBand(new SolidColorBrush(Colors.Black), 0);
         }
 
         private void BrownButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Brown), 2);
+            ColourBand(new SolidColorBrush(Colors.Brown), 1);
         }
 
         private void RedButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Red), 3);
+            ColourBand(new SolidColorBrush(Colors.Red), 2);
         }
 
         private void OrangeButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Orange), 4);
+            ColourBand(new SolidColorBrush(Colors.Orange), 3);
         }
 
         private void YellowButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Yellow), 5);
+            ColourBand(new SolidColorBrush(Colors.Yellow), 4);
         }
 
         private void GreenButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Green), 6);
+            ColourBand(new SolidColorBrush(Colors.Green), 5);
         }
 
         private void BlueButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Blue), 7);
+            ColourBand(new SolidColorBrush(Colors.Blue), 6);
         }
 
         private void VioletButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Purple), 8);
+            ColourBand(new SolidColorBrush(Colors.Purple), 7);
         }
 
         private void GrayButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.Gray), 9);
+            ColourBand(new SolidColorBrush(Colors.Gray), 8);
         }
 
         private void WhiteButtonClick(object sender, RoutedEventArgs e)
         {
-            ColourBand(new SolidColorBrush(Colors.White), 10);
+            ColourBand(new SolidColorBrush(Colors.White), 9);
         }
 
         private void GoldButtonClick(object sender, RoutedEventArgs e)
